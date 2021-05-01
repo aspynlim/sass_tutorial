@@ -35,12 +35,20 @@ body {
   width: 80%;
   margin: 0 auto;
   
-  #{&}_paragraph {
+  #{&}_paragraph1 {
     font-weight: weight(regular);
     width: 50%;
 
     &:hover {
       color: pink;
+    }
+  }
+
+  #{&}_paragraph2 {
+    @extend .main_paragraph1;
+
+    &:hover {
+      color: $accent-color;
     }
   }
 
