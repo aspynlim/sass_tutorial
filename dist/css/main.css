@@ -73,6 +73,15 @@
   background: transparent;
 }
 
+.menu-btn_burger.open::before {
+  transform: rotate(45deg) translate(5px, 8px);
+}
+
+.menu-btn_burger.open::after {
+  width: 28px;
+  transform: rotate(-45deg) translate(3px, -7px);
+}
+
 body {
   background: #272727;
   color: white;
