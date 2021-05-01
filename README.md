@@ -1,3 +1,3 @@
-# sass_tutorial
+# Sass Tutorial for Beginners - CSS With Superpowers
 
-https://aspynlim.github.io/sass_tutorial/dist/
+by [freeCodeCamp](https://youtu.be/_a5j7KoflTs)
